@@ -1,11 +1,44 @@
-body{
-    text-align: center;
-    background-color: dodgerblue;
+@font-face {
+  font-family: "birthstoneregular";
+  src: url("birthstone-regular-webfont.woff2") format("woff2"),
+    url("birthstone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.container{
-    background-color: #ffffffBB;
-    margin-top: 100px;
-    padding: 10px;
+body {
+  margin: 0;
+  padding: 0;
+}
 
+.container {
+  padding-top: 5%;
+  font-family: "birthstoneregular";
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  background-color: red;
+  width: 60%;
+  border-radius: 5px;
+  height: 495px;
+}
+
+#bbqicon {
+  width: 50px;
+}
+
+#bbq {
+  float: left;
+  width: 40%;
+  height: 550px;
+  border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+  #bbq {
+    display: none;
+  }
 }

@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./Assets/churrasco.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./Assets/churrasco.png" />
     <title>Churrascômetro</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <h1>Churrascômetro</h1>
-        <p>Adultos <input type="number" class="input" id="txta" placeholder="Insira um número"> </p>
-        <p>Crianças <input type="number" class="input" id="txtc" placeholder="Insira um número"></p>
-        <p>Horas <input type="number" class="input" id="txth" placeholder="Insira um número"></p>
-        <input type="button" value="Calcular" onclick="calcular()">
-        <div id="box">
-            
-        </div>
+      <img src="./Assets/bbq.png" alt="bbq" id="bbqicon" />
+      <h1>Churrascômetro</h1>
+      <p>
+        <input type="number" class="input" id="txta" placeholder="Homens" />
+      </p>
+      <p>
+        <input type="number" class="input" id="txtm" placeholder="Mulheres" />
+      </p>
+      <p>
+        <input type="number" class="input" id="txtc" placeholder="Crianças" />
+      </p>
+      <p>
+        <input
+          type="number"
+          class="input"
+          id="txtd"
+          placeholder="Duração (em horas)"
+        />
+      </p>
+      <input type="button" value="Calcular" onclick="calcular()" />
+      <div id="box"></div>
     </div>
-
-</body>
-<script src="script.js"></script>
-
+    <img src="./Assets/churras.jpg" alt="churrasco" id="bbq" />
+  </body>
+  <script src="script.js"></script>
 </html>
