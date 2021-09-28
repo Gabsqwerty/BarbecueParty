@@ -15,6 +15,7 @@ body {
   padding-top: 5%;
   font-family: "birthstoneregular";
   font-weight: bold;
+  text-shadow: white 0.1em 0.1em 0.2em ;
   text-align: center;
   float: right;
   background-color: red;
